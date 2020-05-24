@@ -1,0 +1,46 @@
+.login-content {
+    height: 100vh;
+}
+
+form {
+    width: 35rem;
+}
+
+.background {
+    position:fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width:100%;
+
+    height:100%;
+
+    min-width: 1000px;
+
+    z-index:-10;
+
+    zoom: 1;
+
+    background-color: #fff;
+
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590321906504&di=cc8dc5b23236cb9ff791bb8c07dedb4b&imgtype=0&src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201408%2F28%2F173210raohlf66afhfaffj.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    -webkit-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-position: center 0;
+  }
+
+  .lead {
+      color: deeppink;
+  }
+
+
+  

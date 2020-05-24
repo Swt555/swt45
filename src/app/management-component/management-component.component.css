@@ -2,3 +2,40 @@ nav {
     padding:0.5rem;
     border: 1px solid lightblue
 }
+
+.demo{
+    position:fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width:100%;
+
+    height:100%;
+
+    min-width: 1000px;
+
+    z-index:-10;
+
+    zoom: 1;
+
+    background-color: #fff;
+
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590297055658&di=1bb6369527cbd54769889eb9918230e3&imgtype=0&src=http%3A%2F%2Fwww.mayoor.net.cn%2Fimages%2Fnfwwomzoojswi33dnyxgg33n%2Ftupian%2F20150906%2Fthanksbaisebeijingppt_4517868.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    -webkit-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-position: center 0;
+  }
+
+  .nav-link {
+      font-size: 30px;
+      color: rgb(255, 238, 0);
+  }

@@ -11,6 +11,8 @@ import { ProductComponentComponent } from './product-component/product-component
 import { ExitComponentComponent } from './exit-component/exit-component.component';
 import { LoginGuard } from './login.guard';
 import { AuthService } from './auth.service';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 const mgtChildrenRoutes: Routes = [
   { path: 'user', component: UserManagementComponentComponent },
@@ -43,7 +45,10 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [LoginGuard, AuthService],
 
